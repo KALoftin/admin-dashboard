@@ -1,2 +1,2 @@
 # admin-dashboard
-A mock dashboard
+A mock dashboard page
