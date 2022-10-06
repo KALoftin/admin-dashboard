@@ -2,7 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  border: 1px solid black;
+  border: 0.5px solid black;
 }
 
 .container {
@@ -21,6 +21,12 @@
   grid-row: 1 / 3;
   display: grid;
   grid-template-rows: 5rem 20rem auto;
+}
+
+.dashboard-home, .home-links-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .header {
@@ -73,7 +79,7 @@
 .trending-users > div {
   display: grid;
   grid-template-columns: 1fr 3fr;
-  grid-template-rows: 1fr 1fr;
+  align-items: center;
 }
 
 footer {
