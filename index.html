@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
@@ -102,10 +107,45 @@
 
       <!-- header -->
       <div class="header">
-        <div class="search"></div>
-        <div class="account"></div>
-        <div class="current-account"></div>
-        <div class="project-widgets"></div>
+        <div class="search">
+          <input type="text" name="search" />
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+        <div class="account-container">
+          <img
+            class="bell-icon"
+            src="./icons/bell-ring-outline.svg"
+            alt="notification icon"
+          />
+          <a href="https://placeholder.com"
+            ><img src="https://via.placeholder.com/25" alt="placeholder photo"
+          /></a>
+          <h3>Kyle Loftin</h3>
+        </div>
+        <div class="current-account-container">
+          <div>
+            <a href="https://placeholder.com"
+              ><img
+                src="https://via.placeholder.com/25"
+                alt="placeholder photo"
+            /></a>
+          </div>
+          <div>
+            <p>Hi there,</p>
+            <h2>Kyle Loftin (@KALoftin)</h2>
+          </div>
+        </div>
+        <div class="project-widgets-container">
+          <div class="project-widgets-buttons">
+            <input type="button" value="New" />
+          </div>
+          <div class="project-widgets-buttons">
+            <input type="button" value="Upload" />
+          </div>
+          <div class="project-widgets-buttons">
+            <input type="button" value="Share" />
+          </div>
+        </div>
       </div>
 
       <!-- main content -->
